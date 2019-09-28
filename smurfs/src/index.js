@@ -5,7 +5,7 @@ import App from "./components/App";
 import { applyMiddleware, createStore } from "redux";
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
-import smurfReducer from "./reducers"
+import {smurfReducer} from "./reducers"
 
 import "./index.css";
 
