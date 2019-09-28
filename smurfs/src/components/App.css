@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: skyblue;
 }
 
 
@@ -17,18 +18,17 @@
   font-size: large;
 }
 .App-smurf {
-  margin: 0 auto;
+  margin: 15px auto;
   width: 75%;
-  border: 3px solid magenta;
+  border-radius: 15px;
+  background: lightblue;
+  border: 3px solid blue;
 }
-.App-smurf-images {
-  margin: 0 auto;
-  width: 75%;
-  /* border: 2px solid blue */
-}
+
 .input-section {
   margin: 0 auto;
-  width: 75%;
+  width: 65%;
+  background: lightblue;
   padding: 20px;
   border: 2px solid blue;
   border-radius: 10px;

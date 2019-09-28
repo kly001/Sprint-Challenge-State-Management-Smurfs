@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       smurfs:[]
       }
-      console.log(this.state.smurfs)
+      console.log("App state of smurfs:",this.state.smurfs)
     }
   
   componentDidMount() {
@@ -40,14 +40,14 @@ class App extends Component {
         <div className="App">
 
       <div className = "App-smurf-images">
-      <img src="http://www.animatedimages.org/data/media/1540/animated-smurfs-image-0089.gif"/>
+      <img src="http://www.animatedimages.org/data/media/1540/animated-smurfs-image-0089.gif" alt="smurf girl"/>
       </div>
         <div className="App-header">  
           <h1>Welcome to Smurf Village</h1>
         </div>
 
   <div className = "App-smurf-images">
-      <img src="http://www.animatedimages.org/data/media/1540/animated-smurfs-image-0058.gif"/>
+      <img src="http://www.animatedimages.org/data/media/1540/animated-smurfs-image-0058.gif" alt="smurf laughing"/>
       
       </div>
 
@@ -86,7 +86,7 @@ class App extends Component {
           </div>
           <div className = "App-smurf-images">
       
-      <img src="http://www.animatedimages.org/data/media/1540/animated-smurfs-image-0027.gif"/>
+      <img src="http://www.animatedimages.org/data/media/1540/animated-smurfs-image-0027.gif" alt="smurfs playing pattycakes "/>
       </div>
       <div className="App-smurfList">
         <h2>Village Memberlist:</h2>
