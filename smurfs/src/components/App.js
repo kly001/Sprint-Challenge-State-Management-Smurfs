@@ -42,8 +42,7 @@ class App extends Component {
       <div className = "App-smurf-images">
       <img src="http://www.animatedimages.org/data/media/1540/animated-smurfs-image-0089.gif"/>
       </div>
-        <div className="App-header">
-          
+        <div className="App-header">  
           <h1>Welcome to Smurf Village</h1>
         </div>
 
@@ -53,7 +52,7 @@ class App extends Component {
       </div>
 
       
-        <div className="InputSection">
+        <div className="input-section">
           <h2>Add New Member Here:</h2>
           <input 
               type="text"

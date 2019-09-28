@@ -2,21 +2,16 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+
 
 .App-header {
-  background-color: #222;
+  background-color: blue;  
+  font-size: 1.75em;
   height: 150px;
   padding: 20px;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
 
 .App-intro {
   font-size: large;
@@ -31,15 +26,19 @@
   width: 75%;
   /* border: 2px solid blue */
 }
-.InputSection {
+.input-section {
   margin: 0 auto;
   width: 75%;
-  border: 2px solid blue
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.smurf-info {
+  color: blue;
+}
+h2{
+  color: blue;
 }
 
 
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
