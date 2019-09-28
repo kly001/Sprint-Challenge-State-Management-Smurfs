@@ -4,8 +4,6 @@ import axios from "axios";
 export const FETCH_SMURFS = "FETCH_SMURFS";
 export const FETCH_SUCCESS = "FETCH_SUCCESS";
 export const FETCH_FAILURE = "FETCH_FAILURE";
-// export const UPDATE= "UPDATE";
-// export const DELETE = "DELETE"
 
 
 
@@ -33,10 +31,4 @@ axios
       payload: error }));
 };
 
-// export const updateSmurf = () => dispatch => {
-//   dispatch({type:UPDATE})
-// }
 
-// export const deleteSmurf = (index)=> {
-//   dispatch({type:DELETE})
-// }

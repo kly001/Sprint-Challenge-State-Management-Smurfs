@@ -21,6 +21,23 @@
 .App-intro {
   font-size: large;
 }
+.App-smurf {
+  margin: 0 auto;
+  width: 75%;
+  border: 3px solid magenta;
+}
+.App-smurf-images {
+  margin: 0 auto;
+  width: 75%;
+  /* border: 2px solid blue */
+}
+.InputSection {
+  margin: 0 auto;
+  width: 75%;
+  border: 2px solid blue
+}
+
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
